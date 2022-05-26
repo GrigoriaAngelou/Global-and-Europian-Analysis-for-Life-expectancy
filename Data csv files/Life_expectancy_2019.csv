@@ -1,0 +1,244 @@
+Entity,Code,Year,Life expectancy
+Afghanistan,AFG,2019,65
+Africa,,2019,63
+Albania,ALB,2019,79
+Algeria,DZA,2019,77
+American Samoa,ASM,2019,74
+Americas,,2019,77
+Andorra,AND,2019,84
+Angola,AGO,2019,61
+Anguilla,AIA,2019,82
+Antigua and Barbuda,ATG,2019,77
+Argentina,ARG,2019,77
+Armenia,ARM,2019,75
+Aruba,ABW,2019,76
+Asia,,2019,74
+Australia,AUS,2019,83
+Austria,AUT,2019,82
+Azerbaijan,AZE,2019,73
+Bahamas,BHS,2019,74
+Bahrain,BHR,2019,77
+Bangladesh,BGD,2019,73
+Barbados,BRB,2019,79
+Belarus,BLR,2019,75
+Belgium,BEL,2019,82
+Belize,BLZ,2019,75
+Benin,BEN,2019,62
+Bermuda,BMU,2019,83
+Bhutan,BTN,2019,72
+Bolivia,BOL,2019,72
+Bonaire Sint Eustatius and Saba,BES,2019,78
+Bosnia and Herzegovina,BIH,2019,77
+Botswana,BWA,2019,70
+Brazil,BRA,2019,76
+British Virgin Islands,VGB,2019,79
+Brunei,BRN,2019,76
+Bulgaria,BGR,2019,75
+Burkina Faso,BFA,2019,62
+Burundi,BDI,2019,62
+Cambodia,KHM,2019,70
+Cameroon,CMR,2019,59
+Canada,CAN,2019,82
+Cape Verde,CPV,2019,73
+Cayman Islands,CYM,2019,84
+Central African Republic,CAF,2019,53
+Chad,TCD,2019,54
+Channel Islands,OWID_CIS,2019,83
+Chile,CHL,2019,80
+China,CHN,2019,77
+Colombia,COL,2019,77
+Comoros,COM,2019,64
+Congo,COG,2019,65
+Cook Islands,COK,2019,76
+Costa Rica,CRI,2019,80
+Cote d'Ivoire,CIV,2019,58
+Croatia,HRV,2019,78
+Cuba,CUB,2019,79
+Curacao,CUW,2019,79
+Cyprus,CYP,2019,81
+Czechia,CZE,2019,79
+Democratic Republic of Congo,COD,2019,61
+Denmark,DNK,2019,81
+Djibouti,DJI,2019,67
+Dominica,DMA,2019,75
+Dominican Republic,DOM,2019,74
+Ecuador,ECU,2019,77
+Egypt,EGY,2019,72
+El Salvador,SLV,2019,73
+Equatorial Guinea,GNQ,2019,59
+Eritrea,ERI,2019,66
+Estonia,EST,2019,79
+Eswatini,SWZ,2019,60
+Ethiopia,ETH,2019,67
+Europe,,2019,79
+Faeroe Islands,FRO,2019,81
+Falkland Islands,FLK,2019,81
+Fiji,FJI,2019,67
+Finland,FIN,2019,82
+France,FRA,2019,83
+French Guiana,GUF,2019,80
+French Polynesia,PYF,2019,78
+Gabon,GAB,2019,66
+Gambia,GMB,2019,62
+Georgia,GEO,2019,74
+Germany,DEU,2019,81
+Ghana,GHA,2019,64
+Gibraltar,GIB,2019,80
+Greece,GRC,2019,82
+Greenland,GRL,2019,72
+Grenada,GRD,2019,72
+Guadeloupe,GLP,2019,82
+Guam,GUM,2019,80
+Guatemala,GTM,2019,74
+Guinea,GIN,2019,62
+Guinea-Bissau,GNB,2019,58
+Guyana,GUY,2019,70
+Haiti,HTI,2019,64
+Honduras,HND,2019,75
+Hong Kong,HKG,2019,85
+Hungary,HUN,2019,77
+Iceland,ISL,2019,83
+India,IND,2019,70
+Indonesia,IDN,2019,72
+Iran,IRN,2019,77
+Iraq,IRQ,2019,71
+Ireland,IRL,2019,82
+Isle of Man,IMN,2019,81
+Israel,ISR,2019,83
+Italy,ITA,2019,84
+Jamaica,JAM,2019,74
+Japan,JPN,2019,85
+Jordan,JOR,2019,75
+Kazakhstan,KAZ,2019,74
+Kenya,KEN,2019,67
+Kiribati,KIR,2019,68
+Kuwait,KWT,2019,75
+Kyrgyzstan,KGZ,2019,71
+Laos,LAO,2019,68
+Latin America and the Caribbean,,2019,75
+Latvia,LVA,2019,75
+Lebanon,LBN,2019,79
+Lesotho,LSO,2019,54
+Liberia,LBR,2019,64
+Libya,LBY,2019,73
+Liechtenstein,LIE,2019,82
+Lithuania,LTU,2019,76
+Luxembourg,LUX,2019,82
+Macao,MAC,2019,84
+Madagascar,MDG,2019,67
+Malawi,MWI,2019,64
+Malaysia,MYS,2019,76
+Maldives,MDV,2019,79
+Mali,MLI,2019,59
+Malta,MLT,2019,83
+Marshall Islands,MHL,2019,74
+Martinique,MTQ,2019,83
+Mauritania,MRT,2019,65
+Mauritius,MUS,2019,75
+Mayotte,MYT,2019,79
+Mexico,MEX,2019,75
+Micronesia (country),FSM,2019,68
+Moldova,MDA,2019,72
+Monaco,MCO,2019,87
+Mongolia,MNG,2019,70
+Montenegro,MNE,2019,77
+Montserrat,MSR,2019,74
+Morocco,MAR,2019,77
+Mozambique,MOZ,2019,61
+Myanmar,MMR,2019,67
+Namibia,NAM,2019,64
+Nauru,NRU,2019,60
+Nepal,NPL,2019,71
+Netherlands,NLD,2019,82
+New Caledonia,NCL,2019,78
+New Zealand,NZL,2019,82
+Nicaragua,NIC,2019,74
+Niger,NER,2019,62
+Nigeria,NGA,2019,55
+Niue,NIU,2019,74
+North Korea,PRK,2019,72
+North Macedonia,MKD,2019,76
+Northern America,,2019,79
+Northern Mariana Islands,MNP,2019,77
+Norway,NOR,2019,82
+Oceania,,2019,79
+Oman,OMN,2019,78
+Pakistan,PAK,2019,67
+Palau,PLW,2019,74
+Palestine,PSE,2019,74
+Panama,PAN,2019,79
+Papua New Guinea,PNG,2019,65
+Paraguay,PRY,2019,74
+Peru,PER,2019,77
+Philippines,PHL,2019,71
+Poland,POL,2019,79
+Portugal,PRT,2019,82
+Puerto Rico,PRI,2019,80
+Qatar,QAT,2019,80
+Reunion,REU,2019,80
+Romania,ROU,2019,76
+Russia,RUS,2019,73
+Rwanda,RWA,2019,69
+Saint Barthlemy,,2019,82
+Saint Helena,SHN,2019,81
+Saint Kitts and Nevis,KNA,2019,76
+Saint Lucia,LCA,2019,76
+Saint Martin (French part),MAF,2019,82
+Saint Pierre and Miquelon,SPM,2019,81
+Saint Vincent and the Grenadines,VCT,2019,73
+Samoa,WSM,2019,73
+San Marino,SMR,2019,85
+Sao Tome and Principe,STP,2019,70
+Saudi Arabia,SAU,2019,75
+Senegal,SEN,2019,68
+Serbia,SRB,2019,76
+Seychelles,SYC,2019,73
+Sierra Leone,SLE,2019,55
+Singapore,SGP,2019,84
+Sint Maarten (Dutch part),SXM,2019,79
+Slovakia,SVK,2019,78
+Slovenia,SVN,2019,81
+Solomon Islands,SLB,2019,73
+Somalia,SOM,2019,57
+South Africa,ZAF,2019,64
+South Korea,KOR,2019,83
+South Sudan,SSD,2019,58
+Spain,ESP,2019,84
+Sri Lanka,LKA,2019,77
+Sudan,SDN,2019,65
+Suriname,SUR,2019,72
+Sweden,SWE,2019,83
+Switzerland,CHE,2019,84
+Syria,SYR,2019,73
+Taiwan,TWN,2019,80
+Tajikistan,TJK,2019,71
+Tanzania,TZA,2019,65
+Thailand,THA,2019,77
+Timor,TLS,2019,69
+Togo,TGO,2019,61
+Tokelau,TKL,2019,82
+Tonga,TON,2019,71
+Trinidad and Tobago,TTO,2019,74
+Tunisia,TUN,2019,77
+Turkey,TUR,2019,78
+Turkmenistan,TKM,2019,68
+Turks and Caicos Islands,TCA,2019,80
+Tuvalu,TUV,2019,68
+Uganda,UGA,2019,63
+Ukraine,UKR,2019,72
+United Arab Emirates,ARE,2019,78
+United Kingdom,GBR,2019,81
+United States,USA,2019,79
+United States Virgin Islands,VIR,2019,81
+Uruguay,URY,2019,78
+Uzbekistan,UZB,2019,72
+Vanuatu,VUT,2019,70
+Vatican,VAT,2019,75
+Venezuela,VEN,2019,72
+Vietnam,VNM,2019,75
+Wallis and Futuna,WLF,2019,80
+Western Sahara,ESH,2019,70
+World,OWID_WRL,2019,73
+Yemen,YEM,2019,66
+Zambia,ZMB,2019,64
+Zimbabwe,ZWE,2019,61
