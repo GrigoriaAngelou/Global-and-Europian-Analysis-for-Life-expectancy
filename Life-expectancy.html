@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Where there is data smoke,​there is business fire">
+    <meta name="description" content="">
+    <title>Life expectancy</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Life-expectancy.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.11.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Life expectancy">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-dca2"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></header>
+    <section class="u-align-center u-clearfix u-image u-section-1" id="carousel_5cd4" data-image-width="1920" data-image-height="1200">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-title u-text-1" data-animation-name="fadeIn" data-animation-duration="1500" data-animation-direction="Down" data-animation-delay="500"> Life expectancy analysis</h1>
+        <div class="u-image u-image-circle u-image-1" alt="" data-image-width="498" data-image-height="285" data-animation-name="rollIn" data-animation-duration="1500" data-animation-direction="" data-animation-delay="500"></div>
+        <p class="u-text u-text-2"> In this study I use a dataset from&nbsp;<a href="https://ourworldindata.org/" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-dark-2 u-btn-1" target="_blank">Our World in Data</a>&nbsp;that include Life expectancy of every country from the year 1543 to the year 2019. In order to explore and visualize the dataset I use jupiter notebook. You can find all my calculations, visualizations and datasets that I used in this analysis in my Github page&nbsp;<a href="https://github.com/GrigoriaAngelou/Global-and-Europian-Analysis-for-Life-expectancy" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-dark-2 u-btn-2" target="_blank">here</a>
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-2121">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-1"> What is life expectancy?&nbsp;</h2>
+        <p class="u-text u-text-2"> Life expectancy is the average life span of an individual. The term “life expectancy” refers to the number of years a person can expect to live. By definition, life expectancy is based on an estimate of the average age that members of a particular population group will be when they die. It is the key metric for assessing population health. But how this metric changes over the years? And why is it so important to know that performance?</p>
+        <h2 class="u-text u-text-3"> Global Life expectancy for years 2019, 1980 &amp; 1900</h2>
+        <div class="u-carousel u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-on-hover u-gallery-1" id="carousel-f035" data-interval="5000" data-u-ride="carousel">
+          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+            <li data-u-target="#carousel-f035" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-f035" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-f035" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+          </ol>
+          <div class="u-carousel-inner u-gallery-inner" role="listbox">
+            <div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-1">
+              <div class="u-back-slide" data-image-width="867" data-image-height="634">
+                <img class="u-back-image u-expanded" src="images/2019.jpg">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-1">
+                <h3 class="u-gallery-heading">Sample Title</h3>
+                <p class="u-gallery-text">Sample Text</p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-2">
+              <div class="u-back-slide" data-image-width="851" data-image-height="651">
+                <img class="u-back-image u-expanded" src="images/1980.jpg">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-2">
+                <h3 class="u-gallery-heading">Sample Title</h3>
+                <p class="u-gallery-text">Sample Text</p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-3" data-image-width="831" data-image-height="612">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="images/1900.jpg">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-3">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+              <style data-mode="XL" data-visited="true"></style>
+              <style data-mode="LG"></style>
+              <style data-mode="MD"></style>
+              <style data-mode="SM"></style>
+              <style data-mode="XS"></style>
+            </div>
+          </div>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-f035" role="button" data-u-slide="prev">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+          </a>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-f035" role="button" data-u-slide="next">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+          </a>
+        </div>
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <p class="u-text u-text-4"> A​s we can see from the above slideshow, life expectancy nowadays extends from 53 to 87 years. But as we go back this metric decreases. The year 1980 was 28 to 77 and even further to the year 1900 was 24 to 53. The maximum life expectancy from 1900 is the minimum for the year 2019. That means that our life has increased so much from the early 20th century that we almost live twice longer.&nbsp;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-2">
+          <div class="u-layout" style="">
+            <div class="u-layout-row" style="">
+              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-22 u-size-xs-60 u-layout-cell-2" src="">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-text u-text-5"> Life expectancy is rising around the world. But in this race there are many&nbsp; inequalities in demographic terms.&nbsp; Africa has the lowest life expectancy from every other continent. The inequality is a bit less obvious now but it is still there even today with an average life expectancy around 50 when the other continents are between 75 to 80. We can also see that Asia made a large improvement and from 28 years in the early 20th century now Life expectancy is 75 years.</p>
+                  <a href="https://eu-de.dataplatform.cloud.ibm.com/dashboards/e3e012c6-b7ca-47e9-960f-8f2d00174e19/view/6035a5640cb923f14dd4f2e407902c017d32705ee3bb840584d67b490f332097f06e1393c87d4b538c160d67f0bd430898" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1" target="_blank">learn more</a>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-image u-layout-cell u-right-cell u-size-38 u-size-xs-60 u-image-1" src="" data-image-width="1066" data-image-height="755">
+                <div class="u-container-layout u-valign-top u-container-layout-3" src=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-3" id="sec-8977">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">Europe's performance</h2>
+        <p class="u-text u-text-default u-text-2">
+          <span style="font-size: 1.25rem;">The winner in this race is Europe. It has the highest life expectancy of all continents with Oceania right behind her. So let's see how individual countries from Europe are performing. I separated them to Northern, Central and Southern europian countries to observe is there are geographical differences between them.&nbsp;</span>&nbsp;
+        </p>
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <h2 class="u-text u-text-default u-text-3">North Europe</h2>
+                  <div class="u-carousel u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-on-hover u-gallery-1" id="carousel-f035" data-interval="5000" data-u-ride="carousel">
+                    <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+                      <li data-u-target="#carousel-f035" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-f035" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-f035" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-f035" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-f035" data-u-slide-to="4" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    </ol>
+                    <div class="u-carousel-inner u-gallery-inner" role="listbox">
+                      <div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-1">
+                        <div class="u-back-slide" data-image-width="500" data-image-height="350">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Denmark1.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-1">
+                          <h3 class="u-gallery-heading">Sample Title</h3>
+                          <p class="u-gallery-text">Sample Text</p>
+                        </div>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-2" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Finland.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-2">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-3" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Ireland.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-3">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-4" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Norway.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-4">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-5" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/UnitedKingdom.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-5">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                    </div>
+                    <a class="u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-f035" role="button" data-u-slide="prev">
+                      <span aria-hidden="true">
+                        <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                      </span>
+                      <span class="sr-only">
+                        <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                      </span>
+                    </a>
+                    <a class="u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-f035" role="button" data-u-slide="next">
+                      <span aria-hidden="true">
+                        <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                      </span>
+                      <span class="sr-only">
+                        <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-2">
+                <div class="u-container-layout u-valign-top u-container-layout-2">
+                  <h2 class="u-text u-text-default u-text-4">Central Europe</h2>
+                  <div class="u-carousel u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-on-hover u-gallery-2" id="carousel-98e1" data-interval="5000" data-u-ride="carousel">
+                    <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-2">
+                      <li data-u-target="#carousel-98e1" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-98e1" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-98e1" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-98e1" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-98e1" data-u-slide-to="4" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-98e1" data-u-slide-to="5" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-98e1" data-u-slide-to="6" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    </ol>
+                    <div class="u-carousel-inner u-gallery-inner" role="listbox">
+                      <div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-6">
+                        <div class="u-back-slide" data-image-width="500" data-image-height="350">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Austria.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-6">
+                          <h3 class="u-gallery-heading">Sample Title</h3>
+                          <p class="u-gallery-text">Sample Text</p>
+                        </div>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-7">
+                        <div class="u-back-slide" data-image-width="500" data-image-height="350">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Czechia.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-7">
+                          <h3 class="u-gallery-heading">Sample Title</h3>
+                          <p class="u-gallery-text">Sample Text</p>
+                        </div>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-8" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Hungary.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-8">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-9" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Liechtenstein.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-9">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-10" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Poland.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-10">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-11" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Slovakia.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-11">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-12" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Slovenia1.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-12">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                    </div>
+                    <a class="u-absolute-vcenter u-border-2 u-border-grey-75 u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-3" href="#carousel-98e1" role="button" data-u-slide="prev">
+                      <span aria-hidden="true">
+                        <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+		c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+                      </span>
+                      <span class="sr-only">
+                        <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+		c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+                      </span>
+                    </a>
+                    <a class="u-absolute-vcenter u-border-2 u-border-grey-75 u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-4" href="#carousel-98e1" role="button" data-u-slide="next">
+                      <span aria-hidden="true">
+                        <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+		c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+                      </span>
+                      <span class="sr-only">
+                        <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+		c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-size-20 u-layout-cell-3">
+                <div class="u-container-layout u-container-layout-3">
+                  <h2 class="u-text u-text-default u-text-5">South Europe</h2>
+                  <div class="u-carousel u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-on-hover u-gallery-3" id="carousel-d744" data-interval="5000" data-u-ride="carousel">
+                    <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-3">
+                      <li data-u-target="#carousel-d744" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="4" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="5" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="6" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="7" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="8" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="9" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="10" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="11" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                      <li data-u-target="#carousel-d744" data-u-slide-to="12" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+                    </ol>
+                    <div class="u-carousel-inner u-gallery-inner" role="listbox">
+                      <div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-13">
+                        <div class="u-back-slide" data-image-width="500" data-image-height="350">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Albania.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-13">
+                          <h3 class="u-gallery-heading">Sample Title</h3>
+                          <p class="u-gallery-text">Sample Text</p>
+                        </div>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-14">
+                        <div class="u-back-slide" data-image-width="500" data-image-height="350">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/BosniaHerzegovina.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-14">
+                          <h3 class="u-gallery-heading">Sample Title</h3>
+                          <p class="u-gallery-text">Sample Text</p>
+                        </div>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-15" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Greece.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-15">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-16" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Italy.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-16">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-17" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Croatia.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-17">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-18" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Bulgaria.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-18">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-19" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Portugal.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-19">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-20" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Romania.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-20">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-21" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/SanMarino.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-21">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-22" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Spain.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-22">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-23" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Spain-28.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-23">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-24" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Slovenia.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-24">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                      <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-25" data-image-width="500" data-image-height="350">
+                        <div class="u-back-slide">
+                          <img class="u-back-image u-expanded u-image-contain" src="images/Vatican.png">
+                        </div>
+                        <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-25">
+                          <h3 class="u-gallery-heading"></h3>
+                          <p class="u-gallery-text"></p>
+                        </div>
+                        <style data-mode="XL" data-visited="true"></style>
+                        <style data-mode="LG"></style>
+                        <style data-mode="MD"></style>
+                        <style data-mode="SM"></style>
+                        <style data-mode="XS"></style>
+                      </div>
+                    </div>
+                    <a class="u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-5" href="#carousel-d744" role="button" data-u-slide="prev">
+                      <span aria-hidden="true">
+                        <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                      </span>
+                      <span class="sr-only">
+                        <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                      </span>
+                    </a>
+                    <a class="u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-6" href="#carousel-d744" role="button" data-u-slide="next">
+                      <span aria-hidden="true">
+                        <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                      </span>
+                      <span class="sr-only">
+                        <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="u-text u-text-default u-text-6">Every europian country has increased its life expectancy throught the years. We can notice that for the years 1918 and 1942 life expectancy has a significal decrease for all the countries, most possibly because of the World War I and II. Although, we can see that almost all the North Europian countries (except Ireland) have many ups and downs, that there are not in Central and South Europe.</p>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-fb52"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  </body>
+</html>
